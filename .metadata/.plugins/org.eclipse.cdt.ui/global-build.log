@@ -1,0 +1,30 @@
+21:36:01 **** Build of configuration Debug for project teste ****
+make all 
+Building file: ../src/teste.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/teste.d" -MT"src/teste.o" -o "src/teste.o" "../src/teste.cpp"
+Finished building: ../src/teste.cpp
+ 
+Building target: teste.exe
+Invoking: Cygwin C++ Linker
+g++  -o "teste.exe" ./src/teste.o   
+Finished building target: teste.exe
+ 
+21:36:28 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:57 **** Incremental Build of configuration Debug for project teste ****
+make all 
+Building file: ../src/teste.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/teste.d" -MT"src/teste.o" -o "src/teste.o" "../src/teste.cpp"
+Finished building: ../src/teste.cpp
+ 
+Building target: teste.exe
+Invoking: Cygwin C++ Linker
+g++  -o "teste.exe" ./src/teste.o   
+Finished building target: teste.exe
+ 
+21:40:08 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.

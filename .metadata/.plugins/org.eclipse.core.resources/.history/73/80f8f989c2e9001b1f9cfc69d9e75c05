@@ -1,0 +1,8 @@
+// Exibe no terminal a msg "olá Mundo"
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Olá Mundo!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

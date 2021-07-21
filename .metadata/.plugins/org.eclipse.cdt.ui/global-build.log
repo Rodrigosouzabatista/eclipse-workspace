@@ -28,3 +28,157 @@ Finished building target: teste.exe
 21:40:08 **** Incremental Build of configuration Debug for project teste ****
 make all 
 make: Nothing to be done for 'all'.
+22:19:40 **** Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+Finished building: ../src/Aula 01.cpp
+ 
+Building target: Aula 01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 01.exe" ./src/Aula\ 01.o   
+Finished building target: Aula 01.exe
+ 
+22:19:46 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:59 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:25:34 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+Finished building: ../src/Aula 01.cpp
+ 
+Building target: Aula 01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 01.exe" ./src/Aula\ 01.o   
+Finished building target: Aula 01.exe
+ 
+22:25:37 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:25:48 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:26:38 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+Finished building: ../src/Aula 01.cpp
+ 
+Building target: Aula 01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 01.exe" ./src/Aula\ 01.o   
+Finished building target: Aula 01.exe
+ 
+22:26:41 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:26:44 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:27 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+../src/Aula 01.cpp: In function 'int main()':
+../src/Aula 01.cpp:17:24: error: too few arguments to function 'float soma(float, float)'
+   17 |  cout << soma (10 + 5.6) << endl;
+      |                        ^
+../src/Aula 01.cpp:6:7: note: declared here
+    6 | float soma (float a, float b){
+      |       ^~~~
+make: *** [src/subdir.mk:20: src/Aula 01.o] Error 1
+22:27:29 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:32 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+../src/Aula 01.cpp: In function 'int main()':
+../src/Aula 01.cpp:17:24: error: too few arguments to function 'float soma(float, float)'
+   17 |  cout << soma (10 + 5.6) << endl;
+      |                        ^
+../src/Aula 01.cpp:6:7: note: declared here
+    6 | float soma (float a, float b){
+      |       ^~~~
+make: *** [src/subdir.mk:20: src/Aula 01.o] Error 1
+22:27:57 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+../src/Aula 01.cpp: In function 'int main()':
+../src/Aula 01.cpp:17:22: error: too few arguments to function 'float soma(float, float)'
+   17 |  cout << soma (10+5.6) << endl;
+      |                      ^
+../src/Aula 01.cpp:6:7: note: declared here
+    6 | float soma (float a, float b){
+      |       ^~~~
+make: *** [src/subdir.mk:20: src/Aula 01.o] Error 1
+22:27:59 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:03 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+../src/Aula 01.cpp: In function 'int main()':
+../src/Aula 01.cpp:17:22: error: too few arguments to function 'float soma(float, float)'
+   17 |  cout << soma (10+5.6) << endl;
+      |                      ^
+../src/Aula 01.cpp:6:7: note: declared here
+    6 | float soma (float a, float b){
+      |       ^~~~
+make: *** [src/subdir.mk:20: src/Aula 01.o] Error 1
+22:28:25 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+Finished building: ../src/Aula 01.cpp
+ 
+Building target: Aula 01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 01.exe" ./src/Aula\ 01.o   
+Finished building target: Aula 01.exe
+ 
+22:28:28 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:32 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:42 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+Building file: ../src/Aula 01.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aula 01.d" -MT"src/Aula\ 01.d" -o "src/Aula 01.o" "../src/Aula 01.cpp"
+Finished building: ../src/Aula 01.cpp
+ 
+Building target: Aula 01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 01.exe" ./src/Aula\ 01.o   
+Finished building target: Aula 01.exe
+ 
+22:41:45 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:29 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:29 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:33 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.

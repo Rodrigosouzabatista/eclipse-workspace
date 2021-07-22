@@ -182,3 +182,135 @@ make: Nothing to be done for 'all'.
 22:42:33 **** Incremental Build of configuration Debug for project Aula 01 ****
 make all 
 make: Nothing to be done for 'all'.
+19:07:58 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:08:01 **** Build of configuration Debug for project Batata ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Batata.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Batata.exe" ./Principal.o   
+Finished building target: Batata.exe
+ 
+19:08:13 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+19:08:25 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:57 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:00 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+Building file: ../lib/mat.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lib/mat.d" -MT"lib/mat.o" -o "lib/mat.o" "../lib/mat.cpp"
+Finished building: ../lib/mat.cpp
+ 
+Building file: ../lib/msg.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lib/msg.d" -MT"lib/msg.o" -o "lib/msg.o" "../lib/msg.cpp"
+Finished building: ../lib/msg.cpp
+ 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+../Principal.cpp: In function 'int main(int, char**)':
+../Principal.cpp:10:8: error: 'soma' was not declared in this scope
+   10 |  res = soma (num1,num2);
+      |        ^~~~
+../Principal.cpp:11:24: error: 'to_string' is not a member of 'std'
+   11 |     exibeMensagem(std::to_string(res));
+      |                        ^~~~~~~~~
+../Principal.cpp:11:5: error: 'exibeMensagem' was not declared in this scope
+   11 |     exibeMensagem(std::to_string(res));
+      |     ^~~~~~~~~~~~~
+make: *** [subdir.mk:20: Principal.o] Error 1
+21:16:05 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:20 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+Building file: ../lib/mat.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lib/mat.d" -MT"lib/mat.o" -o "lib/mat.o" "../lib/mat.cpp"
+Finished building: ../lib/mat.cpp
+ 
+Building file: ../lib/msg.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lib/msg.d" -MT"lib/msg.o" -o "lib/msg.o" "../lib/msg.cpp"
+Finished building: ../lib/msg.cpp
+ 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Batata.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Batata.exe" ./lib/mat.o ./lib/msg.o  ./Principal.o   
+Finished building target: Batata.exe
+ 
+21:16:48 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:49 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Batata.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Batata.exe" ./lib/mat.o ./lib/msg.o  ./Principal.o   
+Finished building target: Batata.exe
+ 
+21:16:52 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:56 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:16 **** Incremental Build of configuration Debug for project Aula 01 ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:16 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Batata.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Batata.exe" ./lib/mat.o ./lib/msg.o  ./Principal.o   
+Finished building target: Batata.exe
+ 
+21:22:19 **** Incremental Build of configuration Debug for project teste ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:26 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Batata.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Batata.exe" ./lib/mat.o ./lib/msg.o  ./Principal.o   
+Finished building target: Batata.exe
+ 
+21:24:07 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:27 **** Incremental Build of configuration Debug for project Batata ****
+make all 
+make: Nothing to be done for 'all'.

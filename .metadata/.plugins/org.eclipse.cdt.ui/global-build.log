@@ -387,3 +387,123 @@ Finished building target: Aula 03.exe
 21:00:39 **** Incremental Build of configuration Debug for project Aula 03 ****
 make all 
 make: Nothing to be done for 'all'.
+22:17:10 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Aula 03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 03.exe" ./Principal.o   
+Finished building target: Aula 03.exe
+ 
+22:17:14 **** Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:47:44: error: invalid operands of types 'const char [28]' and 'double' to binary 'operator+'
+   47 |  std::cout << "O resultado da operação e: "+result << std::endl;
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+      |               |                             |
+      |               const char [28]               double
+make: *** [subdir.mk:20: principal.o] Error 1
+22:18:03 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:18:04 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:47:52: error: invalid operands of types 'double' and '<unresolved overloaded function type>' to binary 'operator<<'
+   47 |  std::cout << "O resultado da operação e: ",result << std::endl;
+      |                                             ~~~~~~~^~~~~~~~~~~~
+make: *** [subdir.mk:20: principal.o] Error 1
+22:19:10 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:10 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:49:52: error: invalid operands of types 'double' and '<unresolved overloaded function type>' to binary 'operator<<'
+   49 |  std::cout << "O resultado da operação e: ",result << std::endl;
+      |                                             ~~~~~~~^~~~~~~~~~~~
+make: *** [subdir.mk:20: principal.o] Error 1
+22:19:26 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:26 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:49:15: error: unable to find string literal operator 'operator""result' with 'const char [28]', 'long long unsigned int' arguments
+   49 |  std::cout << "O resultado da operação e: "result << std::endl;
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [subdir.mk:20: principal.o] Error 1
+22:19:57 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:57 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+Finished building: ../principal.cpp
+ 
+Building target: Calculadora.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Calculadora.exe" ./principal.o   
+Finished building target: Calculadora.exe
+ 
+22:20:30 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:20:30 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp:49:15: warning: character constant too long for its type
+   49 |  std::cout << 'O resultado e'+result << std::endl;
+      |               ^~~~~~~~~~~~~~~
+Finished building: ../principal.cpp
+ 
+Building target: Calculadora.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Calculadora.exe" ./principal.o   
+Finished building target: Calculadora.exe
+ 
+22:21:40 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:21:41 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+Finished building: ../principal.cpp
+ 
+Building target: Calculadora.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Calculadora.exe" ./principal.o   
+Finished building target: Calculadora.exe
+ 
+22:21:52 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:19 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:33 **** Incremental Build of configuration Debug for project Calculadora ****
+make all 
+make: Nothing to be done for 'all'.

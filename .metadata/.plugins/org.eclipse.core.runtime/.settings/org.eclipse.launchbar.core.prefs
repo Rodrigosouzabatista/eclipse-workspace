@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:teste.exe,org.eclipse.launchbar.core.descriptorType.default\:Aula 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Batata.exe,org.eclipse.launchbar.core.descriptorType.default\:Aula 03.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:teste.exe,org.eclipse.launchbar.core.descriptorType.default\:Aula 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Batata.exe,org.eclipse.launchbar.core.descriptorType.default\:Aula 03.exe,org.eclipse.launchbar.core.descriptorType.default\:Calculadora.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Aula\ 01.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Aula\ 01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

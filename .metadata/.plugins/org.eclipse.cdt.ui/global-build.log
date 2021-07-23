@@ -314,3 +314,76 @@ make: Nothing to be done for 'all'.
 21:24:27 **** Incremental Build of configuration Debug for project Batata ****
 make all 
 make: Nothing to be done for 'all'.
+22:19:48 **** Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+../Principal.cpp: In function 'int main(int, char**)':
+../Principal.cpp:15:22: error: too few arguments to function 'double mult(double, double, double)'
+   15 |  std::cout <<mult(5,6)<< std::endl;
+      |                      ^
+../Principal.cpp:8:8: note: declared here
+    8 | double mult (double a, double b, double c){
+      |        ^~~~
+make: *** [subdir.mk:20: Principal.o] Error 1
+22:22:34 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Aula 03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 03.exe" ./Principal.o   
+Finished building target: Aula 03.exe
+ 
+22:22:47 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:30 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Aula 03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 03.exe" ./Principal.o   
+Finished building target: Aula 03.exe
+ 
+20:05:47 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:03 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Aula 03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 03.exe" ./Principal.o   
+Finished building target: Aula 03.exe
+ 
+20:12:13 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:31 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+Building file: ../Principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Principal.d" -MT"Principal.o" -o "Principal.o" "../Principal.cpp"
+Finished building: ../Principal.cpp
+ 
+Building target: Aula 03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Aula 03.exe" ./Principal.o   
+Finished building target: Aula 03.exe
+ 
+21:00:39 **** Incremental Build of configuration Debug for project Aula 03 ****
+make all 
+make: Nothing to be done for 'all'.

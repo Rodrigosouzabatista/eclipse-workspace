@@ -1,3 +1,4 @@
+#include<cmath>
 #include<iostream>
 
 //recebe zero ou mais valores

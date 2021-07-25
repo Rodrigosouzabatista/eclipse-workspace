@@ -507,3 +507,1596 @@ make: Nothing to be done for 'all'.
 22:22:33 **** Incremental Build of configuration Debug for project Calculadora ****
 make all 
 make: Nothing to be done for 'all'.
+19:36:30 **** Build of configuration Debug for project scpps ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:10:9: error: 'cout' is not a member of 'std'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |         ^~~~
+../principal.cpp:1:1: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+  +++ |+#include <iostream>
+    1 | 
+../principal.cpp:10:46: error: 'end' is not a member of 'std'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+../principal.cpp:1:1: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+  +++ |+#include <iterator>
+    1 | 
+../principal.cpp:13:9: error: 'cout' is not a member of 'std'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |         ^~~~
+../principal.cpp:13:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:13:46: error: 'end' is not a member of 'std'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+../principal.cpp:13:46: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+../principal.cpp:16:9: error: 'cout' is not a member of 'std'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |         ^~~~
+../principal.cpp:16:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:16:46: error: 'end' is not a member of 'std'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+../principal.cpp:16:46: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+../principal.cpp:20:9: error: 'cout' is not a member of 'std'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |         ^~~~
+../principal.cpp:20:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:20:40: error: 'end' is not a member of 'std'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+../principal.cpp:20:40: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+make: *** [subdir.mk:20: principal.o] Error 1
+19:36:38 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:10:9: error: 'cout' is not a member of 'std'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |         ^~~~
+../principal.cpp:1:1: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+  +++ |+#include <iostream>
+    1 | 
+../principal.cpp:10:46: error: 'end' is not a member of 'std'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+../principal.cpp:1:1: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+  +++ |+#include <iterator>
+    1 | 
+../principal.cpp:13:9: error: 'cout' is not a member of 'std'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |         ^~~~
+../principal.cpp:13:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:13:46: error: 'end' is not a member of 'std'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+../principal.cpp:13:46: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+../principal.cpp:16:9: error: 'cout' is not a member of 'std'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |         ^~~~
+../principal.cpp:16:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:16:46: error: 'end' is not a member of 'std'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+../principal.cpp:16:46: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+../principal.cpp:20:9: error: 'cout' is not a member of 'std'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |         ^~~~
+../principal.cpp:20:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+../principal.cpp:20:40: error: 'end' is not a member of 'std'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+../principal.cpp:20:40: note: 'std::end' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+make: *** [subdir.mk:20: principal.o] Error 1
+19:37:04 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+../principal.cpp: In function 'int main(int, char**)':
+../principal.cpp:10:38: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:36: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:33: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:31: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:28: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:37: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:25: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:24: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/string:55,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/locale_classes.h:40,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:41,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 6468 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   couldn't deduce template parameter '_Alloc'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:46,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:63: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |                                                        ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& ___out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'signed char'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& ___out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'unsigned char'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:70: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |                                                        ~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& ___out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const signed char*'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& ___out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+  773 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note:   template argument deduction/substitution failed:
+../principal.cpp:10:46: note:   couldn't deduce template parameter '_Tp'
+   10 |    std::cout << "Escolheu o numero 1"<< std::end;
+      |                                              ^~~
+../principal.cpp:13:38: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:36: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:33: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:31: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:28: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:37: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:25: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:24: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/string:55,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/locale_classes.h:40,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:41,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 6468 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   couldn't deduce template parameter '_Alloc'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:46,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:63: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |                                                        ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& ___out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'signed char'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& ___out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'unsigned char'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:70: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |                                                        ~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& ___out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const signed char*'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& ___out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+  773 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note:   template argument deduction/substitution failed:
+../principal.cpp:13:46: note:   couldn't deduce template parameter '_Tp'
+   13 |    std::cout << "Escolheu o numero 2"<< std::end;
+      |                                              ^~~
+../principal.cpp:16:38: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:36: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:33: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:31: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:28: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:37: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:25: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:24: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/string:55,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/locale_classes.h:40,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:41,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 6468 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   couldn't deduce template parameter '_Alloc'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:46,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:63: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |                                                        ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& ___out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'signed char'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& ___out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'unsigned char'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:70: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |                                                        ~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& ___out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const signed char*'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& ___out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+  773 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note:   template argument deduction/substitution failed:
+../principal.cpp:16:46: note:   couldn't deduce template parameter '_Tp'
+   16 |    std::cout << "Escolheu o numero 3"<< std::end;
+      |                                              ^~~
+../principal.cpp:20:32: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:108:36: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:117:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:127:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:166:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:170:32: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:174:23: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:181:33: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:192:31: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:201:28: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:205:37: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:220:25: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:224:24: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:232:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:245:30: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/string:55,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/locale_classes.h:40,
+                 from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:41,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 6468 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/basic_string.h:6468:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   couldn't deduce template parameter '_Alloc'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/bits/ios_base.h:46,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ios:42,
+                 from C:/msys64/mingw64/include/c++/10.3.0/ostream:38,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/system_error:262:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:506:63: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
+      |                                                        ~~~~~~~^~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:511:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& ___out, char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:517:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& ___out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:523:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'signed char'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& ___out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:528:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'unsigned char'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:589:70: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
+      |                                                        ~~~~~~~~~~~~~~^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/ostream:784,
+                 from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& ___out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:606:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& ___out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:619:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const signed char*'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& ___out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:624:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+In file included from C:/msys64/mingw64/include/c++/10.3.0/iostream:39,
+                 from ../principal.cpp:1:
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+  773 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/mingw64/include/c++/10.3.0/ostream:773:5: note:   template argument deduction/substitution failed:
+../principal.cpp:20:40: note:   couldn't deduce template parameter '_Tp'
+   20 |    std::cout << "Escolheu nada"<< std::end;
+      |                                        ^~~
+make: *** [subdir.mk:20: principal.o] Error 1
+19:38:07 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+Finished building: ../principal.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./principal.o   
+Finished building target: scpps.exe
+ 
+19:38:21 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+19:38:41 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../principal.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"principal.d" -MT"principal.o" -o "principal.o" "../principal.cpp"
+Finished building: ../principal.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./principal.o   
+Finished building target: scpps.exe
+ 
+19:38:48 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:04 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+../costantes.cpp: In function 'int main(int, char**)':
+../costantes.cpp:12:2: warning: 'Cardapio' is used uninitialized in this function [-Wuninitialized]
+   12 |  switch (Cardapio) {
+      |  ^~~~~~
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:7: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:06:29 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:7: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:07:52 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:07:58 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:12:19 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:13:21 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:16:33 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:17:08 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o ./principal.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./principal.o:C:\eclipse-workspace\scpps\Debug/../principal.cpp:5: multiple definition of `main'; ./costantes.o:C:\eclipse-workspace\scpps\Debug/../costantes.cpp:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+20:17:29 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:00:25 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:00:41 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:03 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:14 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:47 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:01:51 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:27:57 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:28:47 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:29:12 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:29:29 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:29:38 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:29:44 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:30:03 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:30:41 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:30:53 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:31:45 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:32:21 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:32:42 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:32:49 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:33:44 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:33:51 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:34:17 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:35:19 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:35:29 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:35:56 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:37:12 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:37:18 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:37:30 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:38:03 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:38:11 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:38:39 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:43:52 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:43:58 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:13 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:52:39 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:52:46 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:53:42 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:54:35 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:54:40 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:55:02 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:55:07 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:55:25 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:56:29 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:56:36 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:43 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
+11:57:08 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+11:58:12 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file scpps.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: scpps.exe] Error 1
+11:58:17 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+12:10:52 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+Building file: ../costantes.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"costantes.d" -MT"costantes.o" -o "costantes.o" "../costantes.cpp"
+Finished building: ../costantes.cpp
+ 
+Building target: scpps.exe
+Invoking: Cygwin C++ Linker
+g++  -o "scpps.exe" ./costantes.o   
+Finished building target: scpps.exe
+ 
+12:10:57 **** Incremental Build of configuration Debug for project scpps ****
+make all 
+make: Nothing to be done for 'all'.
